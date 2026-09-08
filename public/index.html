@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexiple · Sourcing Refinement Loop</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+</head>
+<body>
+  <div id="app">
+    <!-- ============ SCREEN: SEARCH (first load) ============ -->
+    <section id="screen-search" class="screen">
+      <div class="search-hero">
+        <div class="brandline">
+          <span class="brand-dot"></span>
+          <span class="brand-name">Flexiple</span>
+          <span class="brand-sep">/</span>
+          <span class="brand-sub">AI Recruiter · Sourcing</span>
+        </div>
+        <h1>What are you looking for?</h1>
+        <p class="search-sub">
+          Type it the way you'd search Google. I'll turn it into structured filters and a fit
+          rubric, search the talent pool, and refine with you until it's right.
+        </p>
+        <form id="search-form">
+          <textarea
+            id="search-input"
+            rows="3"
+            maxlength="2000"
+            placeholder="e.g. RDS developers with 4-7 years of experience who have worked at startups, for a role based in Bangalore"
+            autocomplete="off"></textarea>
+          <div class="search-actions">
+            <span class="hint"><kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>Enter</kbd> to search</span>
+            <button type="submit" class="btn btn-primary" id="search-submit">Search talent pool</button>
+          </div>
+        </form>
+        <div class="examples">
+          <span class="examples-label">Try one:</span>
+          <button class="chip" data-example="RDS developers with 4-7 years of experience who have worked at startups, for a role based in Bangalore">RDS devs · 4–7y · startups · Bangalore</button>
+          <button class="chip" data-example="Senior Python backend engineers with 6+ years of experience, based in Mumbai or remote India">Python backend · 6+y · Mumbai/remote</button>
+          <button class="chip" data-example="Platform engineers with Terraform experience, 5+ years, based in Bangalore">Terraform platform · 5+y · Bangalore</button>
+        </div>
+        <div id="health-banner" class="banner banner-warn hidden"></div>
+      </div>
+      <footer class="search-footer">
+        <span id="pool-count"></span> · sample talent pool · single search session, nothing persisted
+      </footer>
+    </section>
+
+    <!-- ============ SCREEN: THINKING ============ -->
+    <section id="screen-thinking" class="screen hidden">
+      <div class="thinking-box">
+        <div class="spinner" aria-hidden="true"></div>
+        <h2 id="thinking-title">Working on it…</h2>
+        <ul class="thinking-steps" id="thinking-steps"></ul>
+        <p class="thinking-elapsed"><span id="thinking-seconds">0</span>s elapsed · real LLM calls take a few seconds</p>
+      </div>
+    </section>
+
+    <!-- ============ SCREEN: WORKSPACE ============ -->
+    <section id="screen-workspace" class="screen hidden">
+      <header class="ws-header">
+        <div class="ws-header-left">
+          <span class="brand-dot"></span>
+          <span class="brand-name">Flexiple</span>
+          <span class="ws-round" id="ws-round"></span>
+          <span class="ws-status" id="ws-status"></span>
+        </div>
+        <div class="ws-header-right">
+          <button class="btn btn-ghost" id="btn-new-search">New search</button>
+          <button class="btn btn-freeze" id="btn-freeze">Freeze search</button>
+        </div>
+      </header>
+
+      <div class="ws-body">
+        <!-- LEFT: conversation + results -->
+        <main class="ws-main">
+          <div class="feed" id="feed"></div>
+
+          <div class="results-section" id="results-section">
+            <div class="results-head">
+              <h2 id="results-title"></h2>
+              <span class="results-meta" id="results-meta"></span>
+            </div>
+            <div id="results-list"></div>
+            <div id="results-empty" class="empty hidden"></div>
+          </div>
+
+          <div class="composer" id="composer">
+            <div class="composer-verdicts hidden" id="composer-verdicts"></div>
+            <form id="feedback-form">
+              <textarea
+                id="feedback-input"
+                rows="2"
+                placeholder='React in chat — e.g. "1 is too junior, 2 and 4 are right" — and/or mark profiles ✓ / ✗ above'
+                maxlength="2000"></textarea>
+              <div class="composer-actions">
+                <span class="hint">I'll adjust the filters &amp; rubric, then re-run</span>
+                <button type="submit" class="btn btn-primary" id="feedback-submit">Refine</button>
+              </div>
+            </form>
+          </div>
+        </main>
+
+        <!-- RIGHT: live spec panel -->
+        <aside class="ws-side">
+          <div class="side-card" id="spec-card">
+            <div class="side-card-head">
+              <h2>Search spec</h2>
+              <button class="btn btn-tiny" id="btn-edit-spec">Edit</button>
+            </div>
+            <p class="side-note">Always live. Edits re-run the search immediately.</p>
+            <div id="spec-view"></div>
+            <div id="spec-editor" class="hidden"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SCREEN: FROZEN ============ -->
+    <section id="screen-frozen" class="screen hidden">
+      <div class="frozen-wrap">
+        <div class="frozen-head">
+          <div class="frozen-badge">❄ Frozen</div>
+          <h1>Final shortlist</h1>
+          <p id="frozen-sub"></p>
+          <div class="frozen-actions">
+            <button class="btn btn-ghost" id="btn-frozen-back">Back to workspace</button>
+            <button class="btn btn-primary" id="btn-frozen-new">Start a new search</button>
+          </div>
+        </div>
+        <div class="frozen-cols">
+          <div class="side-card">
+            <div class="side-card-head"><h2>Frozen filters</h2></div>
+            <div id="frozen-filters"></div>
+          </div>
+          <div class="side-card">
+            <div class="side-card-head"><h2>Frozen rubric</h2></div>
+            <div id="frozen-rubric"></div>
+          </div>
+        </div>
+        <div class="frozen-results">
+          <h2 id="frozen-results-title"></h2>
+          <div id="frozen-results-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- error toast banner (transient, retryable failures) -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

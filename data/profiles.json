@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "p01",
+    "name": "Ananya Rao",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 4,
+    "location": "Bangalore",
+    "current_company": "NimbusPay",
+    "current_company_type": "startup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "Freshworks",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 1
+      },
+      {
+        "company": "Mango Labs",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p02",
+    "name": "Rohan Sharma",
+    "current_title": "Backend Engineer",
+    "years_experience": 7,
+    "location": "Bangalore",
+    "current_company": "NimbusPay",
+    "current_company_type": "startup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Papertrail",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p03",
+    "name": "Priya Iyer",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 4,
+    "location": "Bangalore",
+    "current_company": "Mango Labs",
+    "current_company_type": "startup",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "CodeCraft Studio",
+        "company_type": "agency",
+        "title": "Database Reliability Engineer",
+        "years": 2
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p04",
+    "name": "Arjun Patel",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "NimbusPay",
+    "current_company_type": "startup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "DesignShift",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Tech IT, NIT Trichy",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p05",
+    "name": "Sneha Reddy",
+    "current_title": "Backend Engineer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "Fleetfox",
+    "current_company_type": "startup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Brightbox",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p06",
+    "name": "Vikram Nair",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "ClariFi",
+    "current_company_type": "startup",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "Trellis",
+        "company_type": "startup",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      },
+      {
+        "company": "Brightbox",
+        "company_type": "startup",
+        "title": "Database Reliability Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Backend-leaning engineer with deep AWS RDS and PostgreSQL experience, built and scaled database-backed products at early-stage startups."
+  },
+  {
+    "id": "p07",
+    "name": "Divya Gupta",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 5,
+    "location": "Chennai",
+    "current_company": "Fleetfox",
+    "current_company_type": "startup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "NimbusPay",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p08",
+    "name": "Karan Kulkarni",
+    "current_title": "Backend Engineer",
+    "years_experience": 2,
+    "location": "Chennai",
+    "current_company": "BrowserStack",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "DesignShift",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p09",
+    "name": "Meera Menon",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 8,
+    "location": "Mumbai",
+    "current_company": "Infosys",
+    "current_company_type": "enterprise",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "ClariFi",
+        "company_type": "startup",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      },
+      {
+        "company": "Razorpay",
+        "company_type": "scaleup",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p10",
+    "name": "Aditya Singh",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 9,
+    "location": "Mumbai",
+    "current_company": "Accenture",
+    "current_company_type": "enterprise",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "SAP",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p11",
+    "name": "Ishita Das",
+    "current_title": "Backend Engineer",
+    "years_experience": 8,
+    "location": "Hyderabad",
+    "current_company": "Accenture",
+    "current_company_type": "enterprise",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Razorpay",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p12",
+    "name": "Nikhil Joshi",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 5,
+    "location": "Delhi NCR",
+    "current_company": "Amazon",
+    "current_company_type": "enterprise",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "Chargebee",
+        "company_type": "scaleup",
+        "title": "Database Reliability Engineer",
+        "years": 1
+      },
+      {
+        "company": "Hasura",
+        "company_type": "scaleup",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p13",
+    "name": "Pooja Verma",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 5,
+    "location": "Chennai",
+    "current_company": "Brightbox",
+    "current_company_type": "startup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "Infosys",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 1
+      },
+      {
+        "company": "PixelWorks",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, IIT Madras",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p14",
+    "name": "Rahul Chopra",
+    "current_title": "Backend Engineer",
+    "years_experience": 5,
+    "location": "Mumbai",
+    "current_company": "BrowserStack",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Brightbox",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 2
+      },
+      {
+        "company": "DesignShift",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. Computer Science, BITS Pilani",
+    "summary": "Solid database and backend experience; may fit depending on how the team weighs location, seniority, and company background."
+  },
+  {
+    "id": "p15",
+    "name": "Shreya Bhat",
+    "current_title": "Full Stack Engineer",
+    "years_experience": 11,
+    "location": "Delhi NCR",
+    "current_company": "SAP",
+    "current_company_type": "enterprise",
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "TypeScript",
+      "GraphQL"
+    ],
+    "past_companies": [
+      {
+        "company": "Zymo Health",
+        "company_type": "startup",
+        "title": "Full Stack Engineer",
+        "years": 2
+      },
+      {
+        "company": "Postman",
+        "company_type": "scaleup",
+        "title": "Full Stack Engineer",
+        "years": 1
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "Full Stack Engineer with experience across React, Node.js, MongoDB; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p16",
+    "name": "Amit Mukherjee",
+    "current_title": "Senior Frontend Engineer",
+    "years_experience": 9,
+    "location": "Bangalore",
+    "current_company": "SAP",
+    "current_company_type": "enterprise",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Performance",
+      "Accessibility",
+      "Next.js"
+    ],
+    "past_companies": [
+      {
+        "company": "Chargebee",
+        "company_type": "scaleup",
+        "title": "Frontend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Senior Frontend Engineer with experience across React, TypeScript, Performance; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p17",
+    "name": "Kavya Pillai",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 10,
+    "location": "Hyderabad",
+    "current_company": "PixelWorks",
+    "current_company_type": "agency",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "SAP",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Senior Backend Engineer with experience across Node.js, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p18",
+    "name": "Sandeep Agarwal",
+    "current_title": "Backend Engineer",
+    "years_experience": 4,
+    "location": "Chennai",
+    "current_company": "Loopworks",
+    "current_company_type": "startup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Mango Labs",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      },
+      {
+        "company": "Hasura",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Backend Engineer with experience across Python, Django, MySQL; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p19",
+    "name": "Neha Khan",
+    "current_title": "Senior Frontend Engineer",
+    "years_experience": 5,
+    "location": "Delhi NCR",
+    "current_company": "CodeCraft Studio",
+    "current_company_type": "agency",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Performance",
+      "Accessibility",
+      "Next.js"
+    ],
+    "past_companies": [
+      {
+        "company": "Amazon",
+        "company_type": "enterprise",
+        "title": "Frontend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "Senior Frontend Engineer with experience across React, TypeScript, Performance; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p20",
+    "name": "Varun Shetty",
+    "current_title": "Engineering Manager",
+    "years_experience": 9,
+    "location": "Mumbai",
+    "current_company": "Papertrail",
+    "current_company_type": "startup",
+    "skills": [
+      "Leadership",
+      "Hiring",
+      "Node.js",
+      "Architecture"
+    ],
+    "past_companies": [
+      {
+        "company": "Fleetfox",
+        "company_type": "startup",
+        "title": "Engineering Manager",
+        "years": 1
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Engineering Manager with experience across Leadership, Hiring, Node.js; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p21",
+    "name": "Lakshmi Malhotra",
+    "current_title": "DevOps Engineer",
+    "years_experience": 10,
+    "location": "Bangalore",
+    "current_company": "Loopworks",
+    "current_company_type": "startup",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "CI/CD",
+      "Go"
+    ],
+    "past_companies": [
+      {
+        "company": "Zeta",
+        "company_type": "scaleup",
+        "title": "DevOps Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "DevOps Engineer with experience across Kubernetes, Terraform, AWS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p22",
+    "name": "Manish Krishnan",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 9,
+    "location": "Bangalore",
+    "current_company": "Oracle",
+    "current_company_type": "enterprise",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "Razorpay",
+        "company_type": "scaleup",
+        "title": "Database Reliability Engineer",
+        "years": 1
+      },
+      {
+        "company": "CodeCraft Studio",
+        "company_type": "agency",
+        "title": "Database Reliability Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Database Reliability Engineer with experience across PostgreSQL, AWS RDS, Terraform; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p23",
+    "name": "Ritika Bose",
+    "current_title": "Data Engineer",
+    "years_experience": 2,
+    "location": "Bangalore",
+    "current_company": "DesignShift",
+    "current_company_type": "agency",
+    "skills": [
+      "Python",
+      "Spark",
+      "Airflow",
+      "SQL",
+      "dbt"
+    ],
+    "past_companies": [
+      {
+        "company": "WebNest",
+        "company_type": "agency",
+        "title": "Data Engineer",
+        "years": 3
+      },
+      {
+        "company": "Loopworks",
+        "company_type": "startup",
+        "title": "Data Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Data Engineer with experience across Python, Spark, Airflow; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p24",
+    "name": "Suresh Rastogi",
+    "current_title": "Android Engineer",
+    "years_experience": 13,
+    "location": "Amsterdam",
+    "current_company": "Papertrail",
+    "current_company_type": "startup",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines"
+    ],
+    "past_companies": [
+      {
+        "company": "Razorpay",
+        "company_type": "scaleup",
+        "title": "Android Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Tech IT, NIT Trichy",
+    "summary": "Android Engineer with experience across Kotlin, Jetpack Compose, Coroutines; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p25",
+    "name": "Tanvi Pawar",
+    "current_title": "QA Automation Engineer",
+    "years_experience": 3,
+    "location": "Bangalore",
+    "current_company": "CodeCraft Studio",
+    "current_company_type": "agency",
+    "skills": [
+      "Selenium",
+      "Python",
+      "Playwright",
+      "CI/CD"
+    ],
+    "past_companies": [
+      {
+        "company": "PixelWorks",
+        "company_type": "agency",
+        "title": "QA Automation Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "QA Automation Engineer with experience across Selenium, Python, Playwright; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p26",
+    "name": "Harish Chandra",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 2,
+    "location": "Berlin",
+    "current_company": "Freshworks",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "WebNest",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 1
+      },
+      {
+        "company": "PixelWorks",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Senior Backend Engineer with experience across Node.js, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p27",
+    "name": "Deepa Ghosh",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 7,
+    "location": "Bangalore",
+    "current_company": "DesignShift",
+    "current_company_type": "agency",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "CodeCraft Studio",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 1
+      },
+      {
+        "company": "Infosys",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Senior Backend Engineer with experience across Node.js, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p28",
+    "name": "Gaurav Sinha",
+    "current_title": "Backend Engineer",
+    "years_experience": 12,
+    "location": "Hyderabad",
+    "current_company": "NimbusPay",
+    "current_company_type": "startup",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Zeta",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 3
+      },
+      {
+        "company": "Kite HR",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Backend Engineer with experience across Python, Django, MySQL; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p29",
+    "name": "Swati Kapoor",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 11,
+    "location": "Amsterdam",
+    "current_company": "Postman",
+    "current_company_type": "scaleup",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "Razorpay",
+        "company_type": "scaleup",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. Computer Science, BITS Pilani",
+    "summary": "Database Reliability Engineer with experience across PostgreSQL, AWS RDS, Terraform; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p30",
+    "name": "Rajesh Mehta",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 7,
+    "location": "Remote - India",
+    "current_company": "Accenture",
+    "current_company_type": "enterprise",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "Infosys",
+        "company_type": "enterprise",
+        "title": "Database Reliability Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Database Reliability Engineer with experience across PostgreSQL, AWS RDS, Terraform; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p31",
+    "name": "Nandini Trivedi",
+    "current_title": "Frontend Engineer",
+    "years_experience": 11,
+    "location": "Remote - India",
+    "current_company": "Amazon",
+    "current_company_type": "enterprise",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Next.js",
+      "Design Systems"
+    ],
+    "past_companies": [
+      {
+        "company": "NimbusPay",
+        "company_type": "startup",
+        "title": "Frontend Engineer",
+        "years": 2
+      },
+      {
+        "company": "Loopworks",
+        "company_type": "startup",
+        "title": "Frontend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Frontend Engineer with experience across React, TypeScript, CSS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p32",
+    "name": "Akash Saxena",
+    "current_title": "Machine Learning Engineer",
+    "years_experience": 3,
+    "location": "Hyderabad",
+    "current_company": "Papertrail",
+    "current_company_type": "startup",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "RAG",
+      "Vector DBs"
+    ],
+    "past_companies": [
+      {
+        "company": "Infosys",
+        "company_type": "enterprise",
+        "title": "Machine Learning Engineer",
+        "years": 2
+      },
+      {
+        "company": "Microsoft",
+        "company_type": "enterprise",
+        "title": "Machine Learning Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. ISE, RV College of Engineering",
+    "summary": "Machine Learning Engineer with experience across Python, PyTorch, LLMs; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p33",
+    "name": "Shruti Raman",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 11,
+    "location": "Amsterdam",
+    "current_company": "Oracle",
+    "current_company_type": "enterprise",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "Chargebee",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, IIT Madras",
+    "summary": "Senior Backend Engineer with experience across Node.js, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p34",
+    "name": "Vishal Gill",
+    "current_title": "Frontend Engineer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "Hasura",
+    "current_company_type": "scaleup",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Next.js",
+      "Design Systems"
+    ],
+    "past_companies": [
+      {
+        "company": "Hasura",
+        "company_type": "scaleup",
+        "title": "Frontend Engineer",
+        "years": 3
+      },
+      {
+        "company": "Microsoft",
+        "company_type": "enterprise",
+        "title": "Frontend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "Frontend Engineer with experience across React, TypeScript, CSS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p35",
+    "name": "Ankita Bhatt",
+    "current_title": "Backend Engineer",
+    "years_experience": 2,
+    "location": "Remote - India",
+    "current_company": "DesignShift",
+    "current_company_type": "agency",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "Fleetfox",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "Backend Engineer with experience across Python, Django, MySQL; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p36",
+    "name": "Siddharth Anand",
+    "current_title": "Senior Frontend Engineer",
+    "years_experience": 12,
+    "location": "Mumbai",
+    "current_company": "PixelWorks",
+    "current_company_type": "agency",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Performance",
+      "Accessibility",
+      "Next.js"
+    ],
+    "past_companies": [
+      {
+        "company": "Kite HR",
+        "company_type": "startup",
+        "title": "Frontend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.E. Computer Science, BITS Pilani",
+    "summary": "Senior Frontend Engineer with experience across React, TypeScript, Performance; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p37",
+    "name": "Malini Dutta",
+    "current_title": "Backend Engineer",
+    "years_experience": 10,
+    "location": "Delhi NCR",
+    "current_company": "Postman",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "AWS RDS",
+      "Kafka",
+      "gRPC"
+    ],
+    "past_companies": [
+      {
+        "company": "Zymo Health",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.E. Computer Science, BITS Pilani",
+    "summary": "Backend Engineer with experience across Go, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p38",
+    "name": "Tejas Naidu",
+    "current_title": "Backend Engineer",
+    "years_experience": 4,
+    "location": "Remote - India",
+    "current_company": "Hasura",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "AWS RDS",
+      "Kafka",
+      "gRPC"
+    ],
+    "past_companies": [
+      {
+        "company": "SAP",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 3
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Backend Engineer with experience across Go, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p39",
+    "name": "Aishwarya Arora",
+    "current_title": "Frontend Engineer",
+    "years_experience": 4,
+    "location": "Amsterdam",
+    "current_company": "BrowserStack",
+    "current_company_type": "scaleup",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Next.js",
+      "Design Systems"
+    ],
+    "past_companies": [
+      {
+        "company": "PixelWorks",
+        "company_type": "agency",
+        "title": "Frontend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, VIT",
+    "summary": "Frontend Engineer with experience across React, TypeScript, CSS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p40",
+    "name": "Pranav Puri",
+    "current_title": "QA Automation Engineer",
+    "years_experience": 13,
+    "location": "Remote - India",
+    "current_company": "Chargebee",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Selenium",
+      "Python",
+      "Playwright",
+      "CI/CD"
+    ],
+    "past_companies": [
+      {
+        "company": "Brightbox",
+        "company_type": "startup",
+        "title": "QA Automation Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Tech CSE, IIIT Hyderabad",
+    "summary": "QA Automation Engineer with experience across Selenium, Python, Playwright; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p41",
+    "name": "Jyoti Venkat",
+    "current_title": "DevOps Engineer",
+    "years_experience": 4,
+    "location": "Amsterdam",
+    "current_company": "DesignShift",
+    "current_company_type": "agency",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "CI/CD",
+      "Go"
+    ],
+    "past_companies": [
+      {
+        "company": "Freshworks",
+        "company_type": "scaleup",
+        "title": "DevOps Engineer",
+        "years": 1
+      },
+      {
+        "company": "Postman",
+        "company_type": "scaleup",
+        "title": "DevOps Engineer",
+        "years": 2
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "DevOps Engineer with experience across Kubernetes, Terraform, AWS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p42",
+    "name": "Naveen Suri",
+    "current_title": "Database Reliability Engineer",
+    "years_experience": 13,
+    "location": "Bangalore",
+    "current_company": "Oracle",
+    "current_company_type": "enterprise",
+    "skills": [
+      "PostgreSQL",
+      "AWS RDS",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "past_companies": [
+      {
+        "company": "TCS",
+        "company_type": "enterprise",
+        "title": "Database Reliability Engineer",
+        "years": 1
+      },
+      {
+        "company": "Infosys",
+        "company_type": "enterprise",
+        "title": "Database Reliability Engineer",
+        "years": 3
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "Database Reliability Engineer with experience across PostgreSQL, AWS RDS, Terraform; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p43",
+    "name": "Smriti Thakur",
+    "current_title": "Backend Engineer",
+    "years_experience": 2,
+    "location": "Chennai",
+    "current_company": "DesignShift",
+    "current_company_type": "agency",
+    "skills": [
+      "Python",
+      "Django",
+      "MySQL",
+      "AWS RDS",
+      "Celery"
+    ],
+    "past_companies": [
+      {
+        "company": "PixelWorks",
+        "company_type": "agency",
+        "title": "Backend Engineer",
+        "years": 2
+      },
+      {
+        "company": "Chargebee",
+        "company_type": "scaleup",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.Sc Computer Science, Delhi University",
+    "summary": "Backend Engineer with experience across Python, Django, MySQL; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p44",
+    "name": "Karthik Bajaj",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 9,
+    "location": "Berlin",
+    "current_company": "Chargebee",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "TypeScript"
+    ],
+    "past_companies": [
+      {
+        "company": "Fleetfox",
+        "company_type": "startup",
+        "title": "Backend Engineer",
+        "years": 3
+      },
+      {
+        "company": "Oracle",
+        "company_type": "enterprise",
+        "title": "Backend Engineer",
+        "years": 1
+      }
+    ],
+    "education": "MCA, Pune University",
+    "summary": "Senior Backend Engineer with experience across Node.js, PostgreSQL, AWS RDS; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p45",
+    "name": "Bhavana Chawla",
+    "current_title": "iOS Engineer",
+    "years_experience": 11,
+    "location": "Pune",
+    "current_company": "Amazon",
+    "current_company_type": "enterprise",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Core Data"
+    ],
+    "past_companies": [
+      {
+        "company": "Freshworks",
+        "company_type": "scaleup",
+        "title": "iOS Engineer",
+        "years": 2
+      },
+      {
+        "company": "CodeCraft Studio",
+        "company_type": "agency",
+        "title": "iOS Engineer",
+        "years": 3
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "iOS Engineer with experience across Swift, SwiftUI, Combine; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p46",
+    "name": "Yash Gowda",
+    "current_title": "iOS Engineer",
+    "years_experience": 7,
+    "location": "Delhi NCR",
+    "current_company": "Zymo Health",
+    "current_company_type": "startup",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Core Data"
+    ],
+    "past_companies": [
+      {
+        "company": "Postman",
+        "company_type": "scaleup",
+        "title": "iOS Engineer",
+        "years": 3
+      },
+      {
+        "company": "Amazon",
+        "company_type": "enterprise",
+        "title": "iOS Engineer",
+        "years": 2
+      }
+    ],
+    "education": "B.Tech CSE, IIIT Hyderabad",
+    "summary": "iOS Engineer with experience across Swift, SwiftUI, Combine; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p47",
+    "name": "Pallavi Hegde",
+    "current_title": "Data Engineer",
+    "years_experience": 9,
+    "location": "Mumbai",
+    "current_company": "Hasura",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Python",
+      "Spark",
+      "Airflow",
+      "SQL",
+      "dbt"
+    ],
+    "past_companies": [
+      {
+        "company": "Microsoft",
+        "company_type": "enterprise",
+        "title": "Data Engineer",
+        "years": 3
+      }
+    ],
+    "education": "M.Tech CSE, IISc Bangalore",
+    "summary": "Data Engineer with experience across Python, Spark, Airflow; background spans a mix of company stages and product domains."
+  },
+  {
+    "id": "p48",
+    "name": "Dev Lal",
+    "current_title": "Android Engineer",
+    "years_experience": 2,
+    "location": "Amsterdam",
+    "current_company": "Hasura",
+    "current_company_type": "scaleup",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines"
+    ],
+    "past_companies": [
+      {
+        "company": "BrowserStack",
+        "company_type": "scaleup",
+        "title": "Android Engineer",
+        "years": 1
+      },
+      {
+        "company": "Zeta",
+        "company_type": "scaleup",
+        "title": "Android Engineer",
+        "years": 1
+      }
+    ],
+    "education": "B.E. ECE, Anna University",
+    "summary": "Android Engineer with experience across Kotlin, Jetpack Compose, Coroutines; background spans a mix of company stages and product domains."
+  }
+]
